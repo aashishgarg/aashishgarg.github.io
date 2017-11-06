@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New features in Ruby 2.3.x"
+title: "New features in Ruby 2.3.X"
 modified:
 categories: blog
 excerpt:
