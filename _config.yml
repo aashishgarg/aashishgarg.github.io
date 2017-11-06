@@ -2,7 +2,7 @@
 
 title: Ashish Garg
 locale: en_US
-description: ROR Developer.
+description: ROR Developer
 logo: site-logo.png
 search: true
 url: https://aashishgarg.github.io
@@ -52,7 +52,7 @@ owner:
   pinterest: #username
   weibo: #userid
   google:
-    plus: #username
+    plus: 01ashishgarg
     analytics:
     verify:
     ad-client:

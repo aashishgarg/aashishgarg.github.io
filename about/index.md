@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: Ruby on Rails Developer
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
@@ -9,18 +9,70 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+Total Experience of six years in software field, inclusive of testing and development both.
+##### Quick profile summary:
 
-## So Simple Theme is all about:
+* Total experience of 6+ years(3 years in ROR development + 3 years in testing).
+* 3+ years with HeaderLabs India (Gurgaon) - working as senior software developer from Mar 2014 - till date.
+* 3+ years with Polaris Financial Technology Limited(Gurgaon) - working as an associate consultant from Oct 2010 to Mar 2014
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+##### Technical Profile
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+* Programming languages - Ruby, Javascript, Jquery
+* Framework : Ruby on Rails
+* IDE: RubyMine
+* Internet Technologies: HTML5, SVG, CSS3, Bootstrap, jQuery, ajax
+* JQuery Plugins: Full calendar, share.js, bootstrap-datepicker,tooltipster etc.
+* Databases used: Mysql, Microsoft SQL Server 2005
+* Deploying and storing Technologies: Git, AWS
+* Deployment Tools: Mina
+* CMS Shopify
+* Automation testing frameworks: Cucumber, Rspec
 
-[^1]: Example: *domain.com/category-name/post-title*
+##### PROJECTS(HeaderLabs (Mar-2014 to till date))
+###### DrawingView
+
+  *DrawingView Software is designed so that Architects and Contractors can focus on 
+  their work, rather than on managing papers, drawings, and reports. Simply upload 
+  your project files on the app, and it finds sheet names, creates Hyperlinks, 
+  manages sheet versions, and does tons of other things so that you can get what 
+  you want in your iphone or ipad device.*
+    
+  * **Technologies used** : Ruby, ROR, jQuery, Jscript, ,active_admin, photofy.
+  * **Url**  - [https://drawingview.com/about-us/](https://drawingview.com/about-us/)
+  * **Responsibility**  - Backend Development and Frontend development in JQuery.
+
+###### Docademic
+
+  *It is basically for both doctors and, patients where a doctor
+   can read journals about of their speciality and contact other doctor for
+   help.Patient can store all their medical history and lot more.*
+    
+  * **Technologies used** : Ruby, Rails, Jquery, RSS::Parser, Solr, Memcache.
+  * **Responsibility**  - Backend Development.
+
+###### Edswell
+
+  *Edswell is designed to help counselors and college-bound
+   students with college application essay writing process.The site offers an
+   incredibly intuitive system that helps counselors and students manage the
+   variety and diversity of college essays along with the progression from draft
+   to final essay.*
+    
+  * **Technologies used** : Ruby,Rails,j query, Jscript, ckeditor, social share 
+                            plugin,stripe, dropbox, facebook api,active_admin, 
+                            photofy.
+  * **Responsibility**  -   Test Automation
+
+##### PROJECTS(Polaris (Oct-2010 to Mar-2014 ))
+###### iRetail
+
+  * iRetail is a robust and comprehensive application suite that embodies the 
+  mandatory functionality of a typical business while providing ample scope for 
+  configuration and customization to each retailer&apos;s business needs. The 
+  features are drawn from the best retail practices from around the world and 
+  are set atop a state-of-the-art technology development framework that understands 
+  the art of merging business and technology together to achieve maximum results.*
+
+  * **Technologies used** : VB.NET, VB 6.0, .NET Framework
+  * **Responsibility**  - Manual Testing
