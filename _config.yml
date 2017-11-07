@@ -5,9 +5,9 @@ locale: en_US
 description: ROR Developer
 logo: site-logo.png
 search: true
-#url: https://aashishgarg.github.io
+url: https://aashishgarg.github.io
 #url: http://localhost:4000
-url: http://18.216.144.216
+#url: http://18.216.144.216
 
 # Jekyll configuration
 
