@@ -1,7 +1,8 @@
 ---
 layout: post
+share: true
 title: "Difference between p, print and puts in ruby"
-modified:
+modified: 2015-12-20T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []

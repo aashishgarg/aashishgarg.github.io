@@ -1,7 +1,8 @@
 ---
 layout: post
+share: true
 title: "Active admin cheat-sheet in Rails"
-modified:
+modified: 2017-10-15T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []

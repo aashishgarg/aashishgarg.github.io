@@ -1,7 +1,8 @@
 ---
 layout: post
+share: true
 title: "nil? method in ruby in ruby"
-modified:
+modified: 2016-01-25T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []

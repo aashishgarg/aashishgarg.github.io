@@ -1,7 +1,8 @@
 ---
 layout: post
+share: true
 title: "New features in Ruby 2.3.X"
-modified:
+modified: 2017-11-06T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []

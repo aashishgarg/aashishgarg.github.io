@@ -1,7 +1,8 @@
 ---
 layout: post
+share: true
 title: "Multiline string in ruby"
-modified:
+modified: 2016-02-01T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []

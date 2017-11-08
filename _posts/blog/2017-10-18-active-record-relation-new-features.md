@@ -1,7 +1,8 @@
 ---
 layout: post
+share: true
 title: "ActiveRecord::Relation new features in Rails 5"
-modified:
+modified: 2017-10-18T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []

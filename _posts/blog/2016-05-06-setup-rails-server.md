@@ -1,7 +1,8 @@
 ---
 layout: post
+share: true
 title: "How to setup Rails Server"
-modified:
+modified: 2016-05-06T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []

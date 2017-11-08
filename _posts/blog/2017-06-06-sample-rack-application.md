@@ -1,7 +1,8 @@
 ---
 layout: post
+share: true
 title: "Sample Rack Application in Rails"
-modified:
+modified: 2017-06-06T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []

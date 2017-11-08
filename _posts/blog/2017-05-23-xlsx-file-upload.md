@@ -1,7 +1,8 @@
 ---
 layout: post
+share: true
 title: ".xlsx file upload in rails"
-modified:
+modified: 2017-05-23T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []
