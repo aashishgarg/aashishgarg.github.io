@@ -31,7 +31,9 @@ Total Experience of six years in software field, inclusive of testing and develo
 
 ##### PROJECTS(HeaderLabs (Mar-2014 to till date))
 
-###### DrawingView
+###### DrawingView 
+
+-----------------------------
   *DrawingView Software is designed so that Architects and Contractors can focus on 
   their work, rather than on managing papers, drawings, and reports. Simply upload 
   your project files on the app, and it finds sheet names, creates Hyperlinks, 
@@ -43,6 +45,8 @@ Total Experience of six years in software field, inclusive of testing and develo
   * **Responsibility**  - Backend Development and Frontend development in JQuery.
   
 ###### Medville
+
+-----------------------------
   *Medville is an solution where a patient can book appointment for a doctor to get service. 
   Its a complete API project for iphone application.*
     
@@ -51,6 +55,8 @@ Total Experience of six years in software field, inclusive of testing and develo
   * **Responsibility**  - Backend Development.
   
 ###### HeartRateSocial
+
+-----------------------------
   *HeartRateSocial is a social networking application. Here user can define his/her 
   eating habits and fitness activities. Then user can find his/her network based upon the 
   preference settings which include 
@@ -64,6 +70,8 @@ Total Experience of six years in software field, inclusive of testing and develo
   * **Responsibility**  - Backend Development.  
 
 ###### Docademic
+
+-----------------------------
   *It is basically for both doctors and, patients where a doctor
    can read journals about of their speciality and contact other doctor for
    help.Patient can store all their medical history and lot more.*
@@ -72,6 +80,8 @@ Total Experience of six years in software field, inclusive of testing and develo
   * **Responsibility**  - Backend Development.
 
 ###### Edswell
+
+-----------------------------
   *Edswell is designed to help counselors and college-bound
    students with college application essay writing process.The site offers an
    incredibly intuitive system that helps counselors and students manage the
@@ -86,6 +96,8 @@ Total Experience of six years in software field, inclusive of testing and develo
 ##### PROJECTS(Polaris (Oct-2010 to Mar-2014 ))
 
 ###### iRetail
+
+-----------------------------
   * iRetail is a robust and comprehensive application suite that embodies the 
   mandatory functionality of a typical business while providing ample scope for 
   configuration and customization to each retailer&apos;s business needs. The 
