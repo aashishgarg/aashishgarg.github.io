@@ -111,7 +111,8 @@ Here **before_action :require_login** is used for authentication.
 <% end %>
 ```
 
-* Create a new partial - views/messages/_message.html.erb 
+* Create a new partial - views/messages/_message.html.erb
+ 
 ```
 <div class="message">
   <strong><%= message.user.email %></strong> says:
@@ -122,7 +123,8 @@ Here **before_action :require_login** is used for authentication.
 </div>
 ```
 
-* Edit the index action of chat controller 
+* Edit the index action of chat controller
+ 
 ```
 # chats_controller.rb
 def index
@@ -137,6 +139,7 @@ Till here this all was the basic rails application functionality.
 From here Action cable feature starts.   
 
 * Edit the environment file
+
 ```
 config.action_cable.url = 'ws://localhost:3000/cable'
 config.action_cable.allowed_request_origins = [ 'http://localhost:3000', 'http://127.0.0.1:3000' ]
