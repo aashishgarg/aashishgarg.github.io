@@ -8,7 +8,7 @@ excerpt:
 tags: []
 image:
   feature:
-date: 2017-11-29T08:20:50-04:00
+date: 2017-12-05T08:20:50-04:00
 ---
 
 ##### A simple working demo of Action Cable 
