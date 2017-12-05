@@ -78,8 +78,8 @@ end
 Here **before_action :require_login** is used for authentication.
 
 
-* For showing the logged in user details edit the layout file - 
-```html
+* For showing the logged in user details edit the layout file
+```
 <!-- views/layouts/application.html.erb -->
 <% if signed_in? %>
   Signed in as: <%= current_user.email %>
@@ -96,7 +96,7 @@ Here **before_action :require_login** is used for authentication.
 ```
 
 * Next we need a form to type the chat messages. There for update the chat index view file
-```html
+```
 <div id="messages">
   <%= render @messages %>
 </div>
@@ -110,7 +110,7 @@ Here **before_action :require_login** is used for authentication.
 ```
 
 * Create a new partial - views/messages/_message.html.erb
-```html
+```
 <div class="message">
   <strong><%= message.user.email %></strong> says:
   <%= message.body %>
@@ -146,7 +146,7 @@ mount ActionCable.server => '/cable'
 ```
 
 * Update the layout file for adding the meta tag
-```html
+```
 <!-- views/layouts/application.html.erb -->
 <!-- ... -->
 <%= action_cable_meta_tag %>
