@@ -19,13 +19,11 @@ It provides both client-side (JavaScript) and server-side (Ruby) code and so you
 functionality like any other part of your Rails application.
 
 * Create a rails application
-
 ```
 rails new ActionCableUploader
 ```
 
 * For authentication add gem - clearance and jquery
-
 ```ruby
 gem 'clearance', '~> 1.16'
 gem 'jquery-rails'
@@ -33,7 +31,6 @@ gem 'jquery-rails'
 Add **//= require jquery3** in _application.js_
 
 * Install clearance
-
 ```
 bundle install
 rails generate clearance:install
@@ -46,7 +43,6 @@ rails g model Message user:belongs_to body:text
 ```
 
 * Define the associations
-
 ```ruby
 # models/user.rb
 has_many :messages, dependent: :destroy
@@ -56,25 +52,21 @@ belongs_to :user
 ```
 
 * Install migration
-
 ```
 rails db:migrate
 ```
 
 * Now we need add a page a from where new message will be submitted and all messages will be displayed
-
 ```
 rails g controller chat index
 ```
 
 * Edit the routes
-
 ```ruby
 root 'chats#index'
 ```
 
 * Edit the Chat controller
-
 ```ruby
 class ChatsController < ApplicationController
   before_action :require_login
@@ -87,7 +79,6 @@ Here **before_action :require_login** is used for authentication.
 
 
 * For showing the logged in user details edit the layout file - 
-
 ```HTML
 <!-- views/layouts/application.html.erb -->
 <% if signed_in? %>
@@ -105,7 +96,6 @@ Here **before_action :require_login** is used for authentication.
 ```
 
 * Next we need a form to type the chat messages. There for update the chat index view file
-
 ```HTML
 <div id="messages">
   <%= render @messages %>
@@ -120,7 +110,6 @@ Here **before_action :require_login** is used for authentication.
 ```
 
 * Create a new partial - views/messages/_message.html.erb
-
 ```HTML
 <div class="message">
   <strong><%= message.user.email %></strong> says:
@@ -132,7 +121,6 @@ Here **before_action :require_login** is used for authentication.
 ```
 
 * Edit the index action of chat controller
-
 ```ruby
 # chats_controller.rb
 def index
@@ -147,20 +135,17 @@ Till here this all was the basic rails application functionality.
 From here Action cable feature starts.   
 
 * Edit the environment file
-
 ```ruby
 config.action_cable.url = 'ws://localhost:3000/cable'
 config.action_cable.allowed_request_origins = [ 'http://localhost:3000', 'http://127.0.0.1:3000' ]
 ```
 
 * Edit routes for mounting action cable in the application
-
 ```ruby
 mount ActionCable.server => '/cable'
 ```
 
 * Update the layout file for adding the meta tag
-
 ```HTML
 <!-- views/layouts/application.html.erb -->
 <!-- ... -->
@@ -171,7 +156,6 @@ mount ActionCable.server => '/cable'
 ```
 
 * Now add a js file in the assets - app/assets/javascripts/channels/chat.js
-
 ```javascript
 jQuery(document).on('turbolinks:load', function () {
     $messages = $('#messages');
@@ -206,7 +190,6 @@ jQuery(document).on('turbolinks:load', function () {
 be used to actually forward the messages to the server.**
 
 * Now we need to listen to the form submit event, prevent the default action and call the **_send_message_** method.
-
 ```javascript
 jQuery(document).on('turbolinks:load', function() {
         if ($messages.length > 0) {
@@ -227,7 +210,6 @@ jQuery(document).on('turbolinks:load', function() {
 ### Action Cable Server side
 
 * Create a new file - app/channels/chat_channel.rb that will process the messages sent from the client side.
-
 ```ruby
 class ChatChannel < ApplicationCable::Channel
   def subscribed
@@ -245,7 +227,6 @@ end
 
 There are two callbacks here that are run automatically: **_subscribed_** and **_unsubscribed_**.
 **_send_message_ is the methos that is called bt the following line of code in our chat.js**
-
 ```javascript
 this.perform('send_message', {
                     message: message
@@ -257,7 +238,6 @@ channel's code, therefore it is not possible to enforce authentication and assoc
 To fix this problem, the current_user should be defined manually. 
 
 * Now modify the file - app/channels/application_cable/connection.rb
-
 ```ruby
 module ApplicationCable
   class Connection < ActionCable::Connection::Base
@@ -300,7 +280,6 @@ to communicate using the channel. The connect method is called automatically eac
 subscribe to a channel, so there nothing else we need to do here.
 
 * Now return to the ChatChannel and tweak the send_message method a bit
-
 ```ruby
 def send_message(data)
   current_user.messages.create(body: data['message'])
@@ -308,7 +287,6 @@ end
 ```
 
 * Now we need to broadcast the newly received message. We can perform this task in the background using Active job.
-
 ```ruby
 # models/message.rb
 class Message < ApplicationRecord
@@ -327,7 +305,6 @@ end
 ```
 
 * Create messages controller
-
 ```ruby
 # app/controllers/messages_controller.rb
 class MessagesController < ApplicationController
@@ -335,7 +312,6 @@ end
 ```
 
 * Create background job
-
 ```ruby
 # app/jobs/message_broadcast_job.rb
 class MessageBroadcastJob < ApplicationJob
