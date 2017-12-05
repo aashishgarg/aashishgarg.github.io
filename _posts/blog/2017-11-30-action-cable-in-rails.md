@@ -12,7 +12,7 @@ date: 2017-11-29T08:20:50-04:00
 ---
 
 ##### A simple working demo of Action Cable 
-The source code for this article is available at - [Github](https://github.com/aashishgarg/Action-cable)
+The source code for this article is available at - [Ashish Garg Github](https://github.com/aashishgarg/Action-cable)
 
 ActionCable is a framework for real-time configuration over web sockets.
 It provides both client-side (JavaScript) and server-side (Ruby) code and so you can craft sockets-related 
