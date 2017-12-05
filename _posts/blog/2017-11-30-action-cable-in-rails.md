@@ -78,7 +78,7 @@ end
 Here **before_action :require_login** is used for authentication.
 
 
-* For showing the logged in user details edit the layout file
+* For showing the logged in user details edit the layout file 
 ```
 <!-- views/layouts/application.html.erb -->
 <% if signed_in? %>
@@ -95,7 +95,7 @@ Here **before_action :require_login** is used for authentication.
 </div>
 ```
 
-* Next we need a form to type the chat messages. There for update the chat index view file
+* Next we need a form to type the chat messages. There for update the chat index view file 
 ```
 <div id="messages">
   <%= render @messages %>
@@ -109,7 +109,7 @@ Here **before_action :require_login** is used for authentication.
 <% end %>
 ```
 
-* Create a new partial - views/messages/_message.html.erb
+* Create a new partial - views/messages/_message.html.erb 
 ```
 <div class="message">
   <strong><%= message.user.email %></strong> says:
@@ -120,7 +120,7 @@ Here **before_action :require_login** is used for authentication.
 </div>
 ```
 
-* Edit the index action of chat controller
+* Edit the index action of chat controller 
 ```
 # chats_controller.rb
 def index
