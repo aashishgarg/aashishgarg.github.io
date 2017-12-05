@@ -46,7 +46,6 @@ rails g model Message user:belongs_to body:text
 ```ruby
 # models/user.rb
 has_many :messages, dependent: :destroy
-
 # models/message.rb
 belongs_to :user
 ```
