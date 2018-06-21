@@ -7,7 +7,7 @@ search: true
 comments: true
 share: true
 url: https://aashishgarg.github.io
-url: http://localhost:4000
+#url: http://localhost:4000
 #url: https://www.aashishgarg.com
 
 # Jekyll configuration
