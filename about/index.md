@@ -30,7 +30,7 @@ Total Experience of six years in software field, inclusive of testing and develo
 * **Bug tracking tools**: JIRA
 * **Others**: HTML5, SVG, CSS3, Bootstrap, jQuery
 
-##### PROJECTS
+##### Major Projects
 
 ###### ThirdPillar-Grade - A leasing and lending product for banking applications
 
@@ -62,7 +62,6 @@ Total Experience of six years in software field, inclusive of testing and develo
   Its a complete API project for iphone application.*
     
   * **Technologies used** : Ruby, ROR, active_admin, paperclip, stripe, timekit, sidekiq.
-  * **Url**  - App is yet to be pushed to in Apple app Store
   * **Responsibility**  - Backend Development.
   
 ###### HeartRateSocial
