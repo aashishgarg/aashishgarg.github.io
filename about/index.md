@@ -27,9 +27,20 @@ Total Experience of six years in software field, inclusive of testing and develo
 * **VCS**: Git
 * **CMS**: Shopify
 * **IDE**: RubyMine
+* **Bug tracking tools**: JIRA
 * **Others**: HTML5, SVG, CSS3, Bootstrap, jQuery
 
-##### PROJECTS(HeaderLabs (Mar-2014 to till date))
+##### PROJECTS
+
+###### ThirdPillar-Grade - A leasing and lending product for banking applications
+
+-----------------------------
+  *Intelligent decision making and management system for banking applications. 
+  The goal of the product is to provide customer interface with minimal user input 
+  values to provide easy accessible decision making of leasing and lending of product.*
+    
+  * **Technologies used** : Ruby, ROR, jQuery, xml
+  * **Responsibility**  - Backend development and API integration.
 
 ###### DrawingView 
 
