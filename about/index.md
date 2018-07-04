@@ -13,21 +13,21 @@ Total Experience of six years in software field, inclusive of testing and develo
 
 ##### Quick profile summary:
 
-* Trantor Software Private Limited - (Feb, 2018 to Till date) - Senior Software Engineer
-* Headerlabs Infotech Private Limited - (Mar, 2014 to Jan, 2018) - Software Engineer
-* Polaris Financial Technology Limited - (May, 2011 to Mar, 2014) - Associate Consultant
+* **Trantor Software Private Limited** - (Feb, 2018 to Till date) - Senior Software Engineer
+* **Headerlabs Infotech Private Limited** - (Mar, 2014 to Jan, 2018) - Software Engineer
+* **Polaris Financial Technology Limited** - (May, 2011 to Mar, 2014) - Associate Consultant
 
 ##### Technical Profile
-* Programming languages: Ruby, JavaScript
-* Framework: Ruby on Rails
-* Databases: Mysql, Postgres, Sql server
-* Testing frameworks: Rspec, Cucumber
-* Deployment Tools: Mina
-* Browser automation tool: Selenium WebDriver
-* VCS: Git
-* CMS: Shopify
-* IDE: RubyMine
-* Others: HTML5, SVG, CSS3, Bootstrap, jQuery
+* **Programming languages**: Ruby, JavaScript
+* **Framework**: Ruby on Rails
+* **Databases**: Mysql, Postgres, Sql server
+* **Testing frameworks**: Rspec, Cucumber
+* **Deployment Tools**: Mina
+* **Browser automation tool**: Selenium WebDriver
+* **VCS**: Git
+* **CMS**: Shopify
+* **IDE**: RubyMine
+* **Others**: HTML5, SVG, CSS3, Bootstrap, jQuery
 
 ##### PROJECTS(HeaderLabs (Mar-2014 to till date))
 
