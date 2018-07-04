@@ -103,8 +103,6 @@ Total Experience of six years in software field, inclusive of testing and develo
                             photofy.
   * **Responsibility**  -   Test Automation
 
-##### PROJECTS(Polaris (Oct-2010 to Mar-2014 ))
-
 ###### iRetail
 
 -----------------------------
