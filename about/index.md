@@ -11,13 +11,10 @@ image:
 
 Total Experience of six years in software field, inclusive of testing and development both.
 ##### Quick profile summary:
-
-* Total experience of 6+ years(3 years in ROR development + 3 years in testing).
-* 3+ years with HeaderLabs India (Gurgaon) - working as senior software developer from Mar 2014 - till date.
-* 3+ years with Polaris Financial Technology Limited(Gurgaon) - working as an associate consultant from Oct 2010 to Mar 2014
-
+* Trantor Software Private Limited - (Feb, 2018 to Till date) - Senior Software Engineer
+* Headerlabs Infotech Private Limited - (Mar, 2014 to Jan, 2018) - Software Engineer
+* Polaris Financial Technology Limited - (May, 2011 to Mar, 2014) - Associate Consultant
 ##### Technical Profile
-
 * Programming languages - Ruby, Javascript, Jquery
 * Framework : Ruby on Rails
 * IDE: RubyMine
