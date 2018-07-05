@@ -1,18 +1,19 @@
 ---
 layout: post
 share: true
-title: "New methods introduced in ruby 2.5"
+title: "Bootstrap modal manipulations made easy in Rails"
 modified: 2017-12-06T08:20:50-04:00
 categories: blog
 excerpt:
 tags: []
 image:
   feature:
-date: 2018-07-05T08:20:50-04:00
+date: 2017-12-05T08:20:50-04:00
 ---
 
 ### Bootstrap modal
-Ruby 2.5 was released on 25-Dec-2017. 
+Modal is a kind of popup provided by bootstrap. But generally its a kind of clumsy task to handle different
+manipulations on it. 
 
 #### How we handle modal in application efficiently
 
