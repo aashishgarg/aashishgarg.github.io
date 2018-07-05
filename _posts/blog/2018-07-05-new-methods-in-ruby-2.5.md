@@ -15,11 +15,9 @@ date: 2017-12-05T08:20:50-04:00
 Ruby 2.5 was released on 25 Dec 2017. A lot of improvements were introduced in this release. 
 New methods were part of this improvements.
 
-#### How we handle modal in application efficiently
+###### New methods on array
 
-* New methods on array
-
-** prepend
+* prepend
 
 ```ruby
 a = nil
