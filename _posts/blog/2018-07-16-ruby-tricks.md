@@ -12,7 +12,7 @@ date: 2018-07-16T08:20:50-04:00
 ---
 
 #### Few tricks
-Some of the ruby syntax that I was not using in my regular life.
+Some of the ror syntax that I was not using in my regular life.
 
 * Hash[...]
 
@@ -149,7 +149,6 @@ If you need to find out what files will be created/modified, you can run a prete
 ```
 
 We can do a search for the string within your project to see all these comments. Alternatively, Rails provide **rake notes**, which will show the list of the comments that begins with these strings:
-s
 
 ```ruby
 $  rake notes
