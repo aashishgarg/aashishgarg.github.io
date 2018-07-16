@@ -127,6 +127,7 @@ User.where(created_at: 10.days.ago..Time.now).to_sql
 It applies the "BETWEEN" in the sql query prepared by the active record.
 
 * Pretend generate
+
 ```ruby
 rails g model comment body:text post_id:integer -p
 invoke  active_record
@@ -136,6 +137,7 @@ invoke    test_unit
 create      test/models/comment_test.rb
 create      test/fixtures/comments.yml
 ```
+
 If you need to find out what files will be created/modified, you can run a pretend migration.
 
 * rake notes
@@ -148,6 +150,7 @@ If you need to find out what files will be created/modified, you can run a prete
 
 We can do a search for the string within your project to see all these comments. Alternatively, Rails provide **rake notes**, which will show the list of the comments that begins with these strings:
 s
+
 ```ruby
 $  rake notes
 app/controllers/application_controller.rb:
@@ -161,4 +164,4 @@ app/models/post.rb:
 ```
 
 
-
+Thanks for reading!!!
