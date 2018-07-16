@@ -53,9 +53,11 @@ new_method(a: 1, b: 2)
 new_method(a: 1, b: 2, c: 3)
 #=> [1, 2, 3]
 ```
+
 This was introduced in Ruby 2.0. We can define the keys in the parameters.
 
 * Default value for hash
+
 ```ruby
 a = Hash.new(0)
 a[:a]
