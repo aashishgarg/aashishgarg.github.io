@@ -121,4 +121,24 @@ class Array
 end
 ```
 
+#### Searching
+
+```ruby
+class Array
+  def binary_search(value, from = 0, to = self.length - 1)
+    return 'Value not present in array' if (value < self[from] || value > self[to])
+    mid = (from + to) / 2
+
+    if value < self[mid]
+      self.binary_search(value, from, (mid - 1))
+    elsif value > self[mid]
+      self.binary_search(value, (mid + 1), to)
+    else
+      mid
+    end
+  end
+end
+
+```
+
 
