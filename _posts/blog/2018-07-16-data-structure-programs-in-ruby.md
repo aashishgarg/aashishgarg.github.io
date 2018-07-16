@@ -80,4 +80,45 @@ class Figures
 end
 ```
 
+#### Sorting
+
+```ruby
+# Algorithm complexity sequence -
+# O(1) -> O(logn) -> O(n) -> O(nlogn) -> O(n*n) -> O(n*n*n) -> (O(2 exp n) or O(10 exp n))
+
+class Array
+  def apply_bubble_sort
+    # ------------------------------------------------------------------- #
+    # go for (n-1) passes and compare two adjacent elements successively
+    # and interchange them if required.
+    # ------------------------------------------------------------------- #
+
+    (1..self.length).each do |counter|
+      (0..(self.length - counter - 1)).each do |count|
+        if self[count] > self[count + 1]
+          self[count], self[count + 1] = self[count + 1], self[count]
+        end
+      end
+    end
+  end
+
+  def apply_selection_sort
+    # ------------------------------------------------------------------- #
+    # go for (n-1) passes and keep selecting the smallest element of each pass
+    # and replace with first element of array for that pass.
+    # ------------------------------------------------------------------- #
+
+    (self.length - 1).times do |i|
+      min_index = i
+
+      (i + 1).upto(self.length - 1) do |j|
+        min_index = j if self[j] < self[i]
+      end
+
+      self[i], self[min_index] = self[min_index], self[i] if min_index != i
+    end
+  end
+end
+```
+
 
