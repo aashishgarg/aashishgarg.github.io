@@ -11,6 +11,296 @@ image:
 date: 2018-07-16T08:20:50-04:00
 ---
 
+#### Linked List
+
+```ruby
+
+class Node
+  attr_accessor :node, :next
+
+  def initialize(node)
+    @node = node
+  end
+
+  def self.last(node)
+    return node if node.next.nil?
+    node = last node.next
+  end
+
+  def self.node_list(node, msg = nil)
+    msg ||= ""
+    return msg if node.nil?
+    node_list(node.next, msg << "#{node.node} -> ")
+  end
+
+  def self.reverse(node)
+    return node if node.next.nil?
+    head, swap, node.next = node.next, node, nil
+    link = head.next
+    while link != nil
+      head.next = swap
+      swap = head
+      head = link
+      link = link.next
+    end
+    head.next = swap
+    head
+  end
+end
+
+node = Node.new(1)
+1.upto(99) do |i|
+  eval("Node.last(node).next = Node.new(i + 1)")
+end
+
+puts Node.node_list node
+puts Node.node_list Node.reverse(node)
+
+```
+
+#### Queue
+
+```ruby
+
+class Queue
+  def initialize(size)
+    @size = size
+    @store = Array.new(@size)
+    @head, @tail = @store.length - 1, 0
+  end
+
+  def dequeue
+    if empty?
+      nil
+    else
+      @tail += 1
+      dequeued = @store[@head]
+      @store.unshift(nil)
+      @store.pop
+      dequeued
+    end
+  end
+
+  def enqueue(element)
+    if full? or element.nil?
+      nil
+    else
+      @tail -= 1
+      @store[@tail] = element
+      self
+    end
+  end
+
+  def size
+    @size
+  end
+
+  def tail
+    @store[@tail]
+  end
+
+  def head
+    @store[@head]
+  end
+
+  private
+  def empty?
+    @head == -1 && @tail == 0
+  end
+
+  def full?
+    @tail.abs == @size
+  end
+end
+
+```
+
+#### Stack
+
+```ruby
+
+class Stack
+  def initialize(size)
+    @size = size
+    @store = Array.new(@size)
+    @top = -1
+  end
+
+  def pop
+    if empty?
+      raise 'StackUnderflow'
+    else
+      popped = @store[@top]
+      @store[@top] = nil
+      @top -= 1
+      popped
+    end
+  end
+
+  def push(element)
+    if full? || element.nil?
+      raise 'StackOverflow'
+    else
+      @top += 1
+      @store[@top] = element
+      self
+    end
+  end
+
+  def size
+    @size
+  end
+
+  def look
+    @store[@top]
+  end
+
+  private
+  def empty?
+    @top == -1
+  end
+
+  def full?
+    @top == @size - 1
+  end
+end
+
+```
+
+#### Searching
+
+```ruby
+
+class Searching
+  def initialize(array, element)
+    @array = Sorting.new(array).bubble_sort
+    @element = element
+  end
+
+  def binary_search(first = 0, last = @array.length - 1)
+    # ---- Complexity ----- #
+    # Worst Case Time Complexity [ Big-O ]: O(log n)
+    # --------------------- #
+    mid = (first + last) / 2
+    if @element < @array[first] || @element > @array[last]
+      'Element not found'
+    else
+      if @element < @array[mid]
+        binary_search(first, @array[mid])
+      elsif @element > @array[mid]
+        binary_search(@array[mid], last)
+      elsif @element == @array[mid]
+        return mid
+      end
+    end
+  end
+end
+
+```
+
+#### Sorting
+
+```ruby
+
+class Sorting
+  def initialize(array)
+    @original_array = array
+    @array = array
+  end
+
+  def print
+    puts '------ Unsorted Array ----'
+    puts @original_array.to_s
+    puts '------ Sorted Array ------'
+    puts @array.to_s
+    puts '--------------------------'
+  end
+
+  def bubble_sort
+    # Start by comparing the first element with second, if its greater then swap both. And go on further.
+    # ---- Complexity ----- #
+    # (n-1) + (n-2) + (n-3) + ..... + 3 + 2 + 1
+    # Sum = n(n-1)/2
+    # i.e O(n2)
+    # --------------------- #
+    # Average Time Complexity [Big-theta]: O(n2)
+    # Worst Case Time Complexity [ Big-O ]: O(n2)
+    # Best Case Time Complexity [Big-omega]: O(n)
+    # Space Complexity: O(1)
+    (1..(@array.length - 2)).each do |num|
+      swapped = false
+      (0..(@array.length - num - 1)).each do |i|
+        if @array[i] > @array[i + 1]
+          swapped = true
+          @array[i], @array[i + 1] = @array[i + 1], @array[i]
+        end
+      end
+      break unless swapped
+    end
+    @array
+  end
+  def selection_sort
+    # Find smallest element in array and swap with first element. And go on to sort further.
+    # Worst Case Time Complexity [ Big-O ]: O(n2)
+    # Best Case Time Complexity [Big-omega]: O(n2)
+    # Average Time Complexity [Big-theta]: O(n2)
+    # Space Complexity: O(1)
+    (0..@array.length - 1).each do |num|
+      smallest = num
+      (num..@array.length - 1).each do |i|
+        if @array[i] < @array[smallest]
+          smallest = i
+        end
+      end
+      @array[num], @array[smallest] = @array[smallest], @array[num]
+    end
+    @array
+  end
+
+  def insertion_sort
+    # Worst Case Time Complexity [ Big-O ]: O(n2)
+    # Best Case Time Complexity [Big-omega]: O(n)
+    # Average Time Complexity [Big-theta]: O(n2)
+    # Space Complexity: O(1)
+    (1..@array.length - 1).each do |i|
+      j = i
+      while (j > 0) && (@array[j - 1] > @array[j])
+        @array[j - 1], @array[j] = @array[j], @array[j - 1]
+        j -= 1
+      end
+    end
+    @array
+  end
+
+  def merge_sort(list = @array)
+    # Divide and Conquer: Keep dividing array until solo elements are not present, then merge in sorted manner.
+    # Worst Case Time Complexity [ Big-O ]: O(n*log n)
+    # Best Case Time Complexity [Big-omega]: O(n*log n)
+    # Average Time Complexity [Big-theta]: O(n*log n)
+    # Space Complexity: O(n)
+    return list if list.size <= 1
+    mid = list.size / 2
+    left = list.take(mid)
+    right = list.drop(mid)
+    merge(merge_sort(left), merge_sort(right))
+  end
+
+  private
+  def merge(left, right)
+    sorted = []
+    until left.empty? || right.empty?
+      if left.first <= right.first
+        sorted << left.shift
+      else
+        sorted << right.shift
+      end
+    end
+    @array = sorted.concat(left).concat(right)
+  end
+end
+
+```
+
 #### Triangle programs
 
 ```ruby
@@ -79,66 +369,4 @@ class Figures
   end
 end
 ```
-
-#### Sorting
-
-```ruby
-# Algorithm complexity sequence -
-# O(1) -> O(logn) -> O(n) -> O(nlogn) -> O(n*n) -> O(n*n*n) -> (O(2 exp n) or O(10 exp n))
-
-class Array
-  def apply_bubble_sort
-    # ------------------------------------------------------------------- #
-    # go for (n-1) passes and compare two adjacent elements successively
-    # and interchange them if required.
-    # ------------------------------------------------------------------- #
-
-    (1..self.length).each do |counter|
-      (0..(self.length - counter - 1)).each do |count|
-        if self[count] > self[count + 1]
-          self[count], self[count + 1] = self[count + 1], self[count]
-        end
-      end
-    end
-  end
-
-  def apply_selection_sort
-    # ------------------------------------------------------------------- #
-    # go for (n-1) passes and keep selecting the smallest element of each pass
-    # and replace with first element of array for that pass.
-    # ------------------------------------------------------------------- #
-
-    (self.length - 1).times do |i|
-      min_index = i
-
-      (i + 1).upto(self.length - 1) do |j|
-        min_index = j if self[j] < self[i]
-      end
-
-      self[i], self[min_index] = self[min_index], self[i] if min_index != i
-    end
-  end
-end
-```
-
-#### Searching
-
-```ruby
-class Array
-  def binary_search(value, from = 0, to = self.length - 1)
-    return 'Value not present in array' if (value < self[from] || value > self[to])
-    mid = (from + to) / 2
-
-    if value < self[mid]
-      self.binary_search(value, from, (mid - 1))
-    elsif value > self[mid]
-      self.binary_search(value, (mid + 1), to)
-    else
-      mid
-    end
-  end
-end
-
-```
-
 
