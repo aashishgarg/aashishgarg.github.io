@@ -16,6 +16,9 @@ our server and the /bin directory created in our project.
 
 ###### Important points
 
+* Any command(like rails s) which we run from the terminal is an executable, residing in one of the folder in load path 
+of our system($PATH)
+* Rails executable gets installed when we install rails gem.
 * **rails** in our [rails s] command is a ruby executable.
 * Ruby executable means, an executable file written in ruby code.
 * When we run [rails s] an equivalent command [exec ruby bin/rails server] is executed. Which runs ruby executable 
@@ -45,3 +48,12 @@ gem 'rspec-core'
 # Loads the original executable
 load Gem.bin_path('rspec-core', 'rspec')
 ```
+
+* By running command **rails s**, different files in the rails get initialized in the following sequence - 
+  1. Gemfile
+  2. config/boot.rb
+  3. config/application.rb
+  4. config/environments/development.rb
+  5. config/initializers/*.rb
+  6. config/environment.rb
+  7. config.ru
