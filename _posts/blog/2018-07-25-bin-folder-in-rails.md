@@ -8,7 +8,7 @@ excerpt:
 tags: []
 image:
   feature:
-date: 2018-07-2gT05:20:50-04:00
+date: 2018-07-25T05:20:50-04:00
 ---
 
 oAuth stands for open Authorization. Here an application delegates its responsibility of authenticating and 
