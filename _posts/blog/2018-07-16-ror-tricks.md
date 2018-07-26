@@ -163,4 +163,17 @@ app/models/post.rb:
 ```
 
 
+* rake restart
+
+It restarts the rails server. It just touches the [tmp/restart.txt] file.
+
+```ruby
+ rake restart 
+```
+
+
+
+
+
 Thanks for reading!!!
+
