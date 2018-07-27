@@ -11,7 +11,7 @@ image:
 date: 2018-07-27T02:20:50-04:00
 ---
 
-Postgres is a object-relational database management system. It was developed at **Berkeley Computer Science Department**, 
+Postgres is an object-relational database management system. It was developed at **Berkeley Computer Science Department**, 
 university of california.
 
 ###### Installation in Ubuntu
@@ -34,3 +34,59 @@ create database.
  postgres=# \password new_user
 ```
 
+###### Connect with postgres
+
+```bash
+sudo su - postgres  # swich to the postgres user
+
+psql  #enters into postgresql console
+
+psql -U postgres -d my_db  # connects to [my_db] database
+
+\q  OR \!  # Disconnects from postgresql console
+```
+
+###### change configuration of postgres
+
+```bash
+sudo nano $(locate -l 1 main/postgresql.conf)
+sudo service postgresql restart
+```
+
+###### View logs
+
+```bash
+sudo tail -n 20 $(find /var/log/postgresql -name 'postgresql-*-main.log')
+```
+
+###### Informatory commands
+
+```bash
+SHOW SERVER_VERSION;
+# => 
+          server_version          
+----------------------------------
+ 10.3 (Ubuntu 10.3-1.pgdg16.04+1)
+ 
+ 
+ \conninfo
+ # =>
+ 
+ You are connected to database "postgres" as user "postgres" via socket in "/var/run/postgresql" at port "5432".
+ 
+ SHOW ALL;  #-> Shows all lenvironment variables.
+ SELECT rolname FROM pg_roles;  #=> lists all users
+ SELECT current_user;  #=> Show current user
+ 
+ \du
+ => shows permissions of different users - 
+ 
+ Role name  |                         Attributes                         | Member of 
+------------+------------------------------------------------------------+-----------
+ ashish     | Superuser, Create role, Create DB                          | {}
+ ashishgarg | Cannot login                                               | {}
+ postgres   | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+ root       | Superuser, Create role, Create DB                          | {}
+
+ 
+```
