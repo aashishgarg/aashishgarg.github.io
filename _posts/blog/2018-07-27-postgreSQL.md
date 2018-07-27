@@ -8,7 +8,7 @@ excerpt:
 tags: []
 image:
   feature:
-date: 2018-07-27T01:20:50-04:00
+date: 2018-07-27T02:20:50-04:00
 ---
 
 Postgres is a object-relational database management system. It was developed at **Berkeley Computer Science Department**, 
