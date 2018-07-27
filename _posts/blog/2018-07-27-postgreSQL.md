@@ -216,3 +216,32 @@ DROP TABLE IF EXISTS <table_name> CASCADE;
 
 ```
 
+###### Permissions commands
+
+```bash
+# Switch to postgres user
+sudo su - postgres
+psql
+
+# grant all permissions on database
+GRANT ALL PRIVILEGES ON DATABASE <db_name> TO <user_name>;
+
+# grant connection permissions on database
+GRANT CONNECT ON DATABASE <db_name> TO <user_name>;
+
+# grant permissions on schema
+GRANT USAGE ON SCHEMA public TO <user_name>;
+
+# grant permissions to functions
+GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA public TO <user_name>;
+
+# grant permissions to select, update, insert, delete, on a all tables
+GRANT SELECT, UPDATE, INSERT ON ALL TABLES IN SCHEMA public TO <user_name>;
+
+# grant permissions, on a table
+GRANT SELECT, UPDATE, INSERT ON <table_name> TO <user_name>;
+
+# grant permissions, to select, on a table
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO <user_name>;
+
+```
