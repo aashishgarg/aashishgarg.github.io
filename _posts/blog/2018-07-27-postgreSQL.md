@@ -88,5 +88,42 @@ SHOW SERVER_VERSION;
  postgres   | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
  root       | Superuser, Create role, Create DB                          | {}
 
- 
+
+\l  => lists all databases
+SELECT current_database();  #=> Shows current database in use.
+\dt  => lists all tables in database in use.
+\df <schema>  #=> lists all functions. 
+```
+
+
+###### Database commands
+
+```bash
+# lists all databases
+\l
+
+# Connect to a database
+\c <database_name> 
+
+# Show current database
+SELECT current_database();
+
+# Create database
+CREATE DATABASE <database_name> WITH OWNER <username>;
+
+# Delete database
+DROP DATABASE IF EXISTS <database_name>;
+
+# Rename database
+ALTER DATABASE <old_name> RENAME TO <new_name>; 
+```
+
+###### User commands
+
+```bash
+# list all roles
+SELECT rolname FROM pg_roles;
+
+# Create user
+CREATE USER <user_name> WITH PASSWORD '<password>';
 ```
