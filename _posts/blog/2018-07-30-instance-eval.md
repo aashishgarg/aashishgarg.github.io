@@ -19,6 +19,7 @@ class Foo
     @z = 1
   end
 end
+
 foo = Foo.new
 foo.instance_eval do
   puts self # => #<Foo:0x7d15e891>
