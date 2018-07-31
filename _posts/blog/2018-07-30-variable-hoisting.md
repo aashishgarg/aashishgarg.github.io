@@ -1,7 +1,7 @@
 ---
 layout: post
 share: true
-title: "Variable hoisting"
+title: "Variable hoisting in ruby"
 modified: 2018-07-30T08:20:50-04:00
 categories: blog
 excerpt:
