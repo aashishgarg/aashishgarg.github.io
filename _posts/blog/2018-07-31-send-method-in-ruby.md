@@ -10,7 +10,7 @@ image:
   feature:
 date: 2018-07-31T02:20:50-04:00
 ---
-Dynamic dispatch in ruby allows us to send messages.
+Dynamic dispatch in ruby allows us to send messages to an object.
 
 ```ruby
 # object.public_send(message, *arguments)
