@@ -1,7 +1,7 @@
 ---
 layout: post
 share: true
-title: ":instance_eval in ruby"
+title: "instance_eval method in ruby"
 modified: 2018-07-30T08:20:50-04:00
 categories: blog
 excerpt:
