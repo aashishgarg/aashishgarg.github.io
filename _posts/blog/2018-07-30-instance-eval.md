@@ -11,7 +11,7 @@ image:
 date: 2018-07-30T05:20:50-04:00
 ---
 
-**:instance_eval** in ruby allows to execute a block in the contect of another object.
+**:instance_eval** in ruby allows to execute a block in the context of another object.
 
 ```ruby
 class Foo
