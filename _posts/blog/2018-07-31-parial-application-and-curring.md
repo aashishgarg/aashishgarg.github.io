@@ -12,6 +12,7 @@ date: 2018-07-31T02:20:50-04:00
 ---
 
 **Partial function application** is calling a function with some number of arguments, in order to get a function back that will take that many less arguments. 
+
 **Currying** is taking a function that takes n arguments, and splitting it into n functions that take one argument. 
 
 
