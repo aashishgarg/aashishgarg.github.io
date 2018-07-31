@@ -10,6 +10,7 @@ image:
   feature:
 date: 2018-07-31T02:20:50-04:00
 ---
+
 Methods can be defined dynamically in ruby.
 Practially I felt like implementing :dynamic_method in my application when there were some values in the database and I had to create methods(method name) depending on those values.
 
