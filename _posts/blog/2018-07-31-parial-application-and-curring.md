@@ -1,7 +1,7 @@
 ---
 layout: post
 share: true
-title: "Parial application and curring in ruby"
+title: "Partial application and curring in ruby"
 modified: 2018-07-31T08:20:50-04:00
 categories: blog
 excerpt:
