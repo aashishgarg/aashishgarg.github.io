@@ -60,7 +60,7 @@ language that Ruby’s virtual machine understands.
 the language. They are called reserved words because you can’t use them as normal identifiers, although you can use them 
 as method names, global variable names (such as $do ), or instance variable names (for example, @do or @@do ).
 
-**AST** -> Abstract Syntax Tree
+**AST** Abstract Syntax Tree
 
 
 
