@@ -35,11 +35,12 @@ program.
 **Ripper** is a Ruby script parser.
 You can get information from the parser with event-based style. Information such as abstract syntax trees or simple lexical analysis of the Ruby program.
 
+```ruby
 require 'ripper'
 
 Ripper.lex("puts 'hello india'")
 Ripper.sexp("puts 'hello india'")
-
+```
 ------------------------------------------------------------------------------------------------------------
 **Acronyms** - 
 
