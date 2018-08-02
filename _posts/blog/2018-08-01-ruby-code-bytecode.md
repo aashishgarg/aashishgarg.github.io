@@ -19,8 +19,7 @@ First, Ruby tokenizes your code, which means it reads the text characters in you
 
 Parser generators(Bison) take a series of grammar rules as input that describe the expected order and patterns in which the tokens 
 will appear.
-The grammar rule file for Bison and Yacc has a .y extension. In the Ruby source code, the grammar rule file is parse.y 
-(introduced earlier). The parse.y file defines the actual syntax and grammar that you have to use while writing your Ruby 
+The grammar rule file for Bison and Yacc has a .y extension. In the Ruby source code, the grammar rule file is parse.y. The parse.y file defines the actual syntax and grammar that you have to use while writing your Ruby 
 code; it’s really the heart and soul of Ruby and where the language itself is actually defined!
 
 **Grammer or Rules(parse.y) -> Generate Parser(Bison) -> Parser code(parse.c**)
