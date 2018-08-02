@@ -20,7 +20,10 @@ Different production-ready Ruby interpreters -
 * Rubinius
 * JRuby
 
-**MRI** stands for **Matz’s Ruby Interpreter**, but some of the core developers prefer to call it **CRuby**. It was created (and is still maintained by) Yukihiro Matsumoto (Matz) in 1995 & it’s written entirely in C.
+There are some others like - Opal, IronRuby, MacRuby or MagLev.
+
+**MRI** stands for **Matz’s Ruby Interpreter**, but some of the core developers prefer to call it **CRuby**. It was created (and is still maintained by) Yukihiro Matsumoto (Matz) in 1995 & it’s written entirely in C. CRuby's "under the hood" implementation has gone through several generations of technology. "YARV" stands for "Yet Another Ruby VM." YARV is the stack-based interpreter technology that CRuby 1.9 through 2.5 uses. It replaced the old-style "abstract syntax tree" interpreter from Ruby 1.8, long ago. 
+
 
 Then we have **JRuby**, which is written in Java & runs on the JVM (Java Virtual Machine). One thing you can do, that isn’t possible in any other Ruby interpreter, is to use Java libraries in your code.
 
