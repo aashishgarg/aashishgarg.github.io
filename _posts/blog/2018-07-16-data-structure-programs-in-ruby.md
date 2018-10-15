@@ -14,37 +14,86 @@ date: 2018-07-16T08:20:50-04:00
 #### Linked List
 
 ```ruby
-
 class Node
-  attr_accessor :node, :next
+  attr_accessor :next
+  attr_reader :value
 
-  def initialize(node)
-    @node = node
+  def initialize(value)
+    @value = value
+    @next = nil
   end
 
-  def self.last(node)
-    return node if node.next.nil?
-    node = last node.next
+  def to_s
+    "Node with value: #{@value}"
+  end
+end
+
+class LinkedList
+  attr_accessor :head
+
+  def initialize
+    @head = nil
   end
 
-  def self.node_list(node, msg = nil)
-    msg ||= ""
-    return msg if node.nil?
-    node_list(node.next, msg << "#{node.node} -> ")
-  end
-
-  def self.reverse(node)
-    return node if node.next.nil?
-    head, swap, node.next = node.next, node, nil
-    link = head.next
-    while link != nil
-      head.next = swap
-      swap = head
-      head = link
-      link = link.next
+  def append(value)
+    node = Node.new(value)
+    if @head
+      find_tail.next = node
+    else
+      @head = node
     end
-    head.next = swap
-    head
+  end
+
+  def find_tail
+    node = @head
+    return node if !node.next
+    while(node = node.next)
+      return node if !node.next
+    end
+  end
+
+  def append_after(target, value)
+    node = find(target)
+    return unless node
+    old_next = node.next
+    node.next = Node.new(value)
+    node.next.next = old_next
+  end
+
+  def delete(value)
+    if @head.value == value
+      @head = @head.next
+      return
+    end
+    node = find_before(value)
+    node.next = node.next.next
+  end
+
+  def find(value)
+    node = @head
+    return false if !node.next
+    return node if node.value == value
+    while(node = node.next)
+      return node if node.value == value
+    end
+  end
+
+  def find_before(value)
+    node = @head
+    return false if !node.next
+    return @head if @head.next.value == value
+    while(node = node.next)
+      return node if node.next && node.next.value == value
+    end
+  end
+
+  def print
+    node = @head
+    to_be_printed = "#{node.value} "
+    while(node = node.next)
+      to_be_printed << "-> #{node.value}"
+    end
+    puts to_be_printed
   end
 end
 
