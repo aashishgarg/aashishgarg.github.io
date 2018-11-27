@@ -98,7 +98,7 @@ Total Experience of six years in software field, inclusive of testing and develo
    variety and diversity of college essays along with the progression from draft
    to final essay.*
     
-  * **Technologies used** : Ruby,Rails,j query, Jscript, ckeditor, social share 
+  * **Technologies used** : Ruby,Rails,jquery, JavaScript, ckeditor, social share 
                             plugin,stripe, dropbox, facebook api,active_admin, 
                             photofy.
   * **Responsibility**  -   Test Automation
@@ -113,5 +113,5 @@ Total Experience of six years in software field, inclusive of testing and develo
   are set atop a state-of-the-art technology development framework that understands 
   the art of merging business and technology together to achieve maximum results.*
 
-  * **Technologies used** : VB.NET, VB 6.0, .NET Framework
-  * **Responsibility**  - Manual Testing
+  * **Technologies used** : ROR, Jquery
+  * **Responsibility**  - Backend development
