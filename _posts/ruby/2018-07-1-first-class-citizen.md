@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "First class citizens in a programming language"
 modified: 2018-07-1T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

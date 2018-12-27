@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Ruby’s Binding Class (binding objects)"
 modified: 2018-07-20T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

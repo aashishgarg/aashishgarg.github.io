@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "New methods introduced in ruby 2.5"
 modified: 2018-07-05T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

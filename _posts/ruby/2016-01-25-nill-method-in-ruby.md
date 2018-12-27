@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "nil? method in ruby in ruby"
 modified: 2016-01-25T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

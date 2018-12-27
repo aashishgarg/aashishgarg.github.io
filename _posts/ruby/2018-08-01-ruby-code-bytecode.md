@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Ruby code to bytecode"
 modified: 2018-08-01T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Method class in ruby"
 modified: 2018-07-21T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

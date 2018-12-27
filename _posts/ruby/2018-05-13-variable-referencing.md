@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "How ruby variables reference objects"
 modified: 2018-05-13T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

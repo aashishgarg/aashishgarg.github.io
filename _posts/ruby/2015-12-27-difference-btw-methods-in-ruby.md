@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Difference between && and (and) in Ruby"
 modified: 2015-12-27T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

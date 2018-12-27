@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "bin folder in rails"
 modified: 2018-07-25T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

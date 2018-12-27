@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Partial application and curring in ruby"
 modified: 2018-07-31T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

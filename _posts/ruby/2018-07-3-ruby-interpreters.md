@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Different ruby interpreters"
 modified: 2018-07-3T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

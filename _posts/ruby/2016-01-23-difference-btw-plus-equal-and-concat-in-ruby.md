@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Difference between += and concat"
 modified: 2016-01-23T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:

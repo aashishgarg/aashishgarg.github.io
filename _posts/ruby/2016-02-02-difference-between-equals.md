@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Difference between == and === and eql? and equal? in ruby"
 modified: 2016-02-02T08:20:50-04:00
-categories: blog
+categories: ruby
 excerpt:
 tags: []
 image:
