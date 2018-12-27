@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "JS plugin ScrollPaginator of pagination on page scroll"
 modified: 2017-02-23T08:20:50-04:00
-categories: blog
+categories: rails
 excerpt:
 tags: []
 image:

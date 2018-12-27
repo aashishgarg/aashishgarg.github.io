@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "ROR tricks"
 modified: 2018-07-16T08:20:50-04:00
-categories: blog
+categories: rails
 excerpt:
 tags: []
 image:

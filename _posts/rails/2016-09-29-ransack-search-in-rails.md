@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Ransack search in rails"
 modified: 2016-09-29T08:20:50-04:00
-categories: blog
+categories: rails
 excerpt:
 tags: []
 image:

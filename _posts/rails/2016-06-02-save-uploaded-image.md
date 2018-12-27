@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Save image uploaded from mobile devices to server(base64)"
 modified: 2016-06-02T08:20:50-04:00
-categories: blog
+categories: rails
 excerpt:
 tags: []
 image:

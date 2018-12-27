@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Mobile number verification through sms with Twilio in Rails"
 modified: 2017-10-30T08:20:50-04:00
-categories: blog
+categories: rails
 excerpt:
 tags: []
 image:

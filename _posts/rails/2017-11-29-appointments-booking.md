@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Appointments bookings feature through third party"
 modified: 2017-11-29T08:20:50-04:00
-categories: blog
+categories: rails
 excerpt:
 tags: []
 image:

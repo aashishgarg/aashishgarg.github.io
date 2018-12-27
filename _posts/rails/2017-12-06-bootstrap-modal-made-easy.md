@@ -3,7 +3,7 @@ layout: post
 share: true
 title: "Bootstrap modal manipulations made easy in Rails"
 modified: 2017-12-06T08:20:50-04:00
-categories: blog
+categories: rails
 excerpt:
 tags: []
 image:
