@@ -9,7 +9,7 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Total Experience of 6 years in software development.
+Total Experience of 4.5+ years in software development.
 
 ##### Quick profile summary:
 
@@ -114,4 +114,4 @@ Total Experience of 6 years in software development.
   the art of merging business and technology together to achieve maximum results.*
 
   * **Technologies used** : ROR, Jquery
-  * **Responsibility**  - Backend development
+  * **Responsibility**  - Testing and Backend development
