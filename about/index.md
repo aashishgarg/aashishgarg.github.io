@@ -9,7 +9,7 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Total Experience of 4.5+ years in software development.
+Total Experience of 5 years in software development.
 
 ##### Quick profile summary:
 
