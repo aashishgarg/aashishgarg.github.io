@@ -9,109 +9,125 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Total Experience of 5 years in software development.
+8+ years of experience as a full stack software developer.
 
 ##### Quick profile summary:
+* **Watermark Insights**(Chandigarh) - Jan, 2020 to Current
+* **R Systems International Limited**(Noida) - 9 months
+* **Trantor Software Private Limited**(Gurgaon, Chandigarh) - 1 year
+* **Headerlabs Infotech Private Limited**(Gurgaon) - 3+ years
+* **Polaris Financial Technology Limited**(Gurgaon) - 2+ years
 
-* **Trantor Software Private Limited** - (Feb, 2018 to Till date) - Senior Software Engineer
-* **Headerlabs Infotech Private Limited** - (Mar, 2014 to Jan, 2018) - Software Engineer
-* **Polaris Financial Technology Limited** - (May, 2011 to Mar, 2014) - Associate Consultant
-
-##### Technical Profile
-* **Programming languages**: Ruby, JavaScript
-* **Framework**: Ruby on Rails
-* **Databases**: Mysql, Postgres, Sql server
-* **Testing frameworks**: Rspec, Cucumber
-* **Deployment Tools**: Mina
-* **Browser automation tool**: Selenium WebDriver
-* **VCS**: Git
-* **CMS**: Shopify
-* **IDE**: RubyMine
+##### Skills
+* **Backend**: Ruby, Ruby on Rails
+* **Frontend**: Javascript, JQuery, ReactJS, AngularJS, material-ui 
+* **Database**: Mysql, MongoDB, Postgresql, MS SQL SERVER 
+* **Backend TDD**: RSpec
+* **Frontend TDD**: ReactJS(enzyme, chai), AngularJS(jasmine)
+* **BDD**: Selenium WebDriver, Cucumber, Watir
 * **Bug tracking tools**: JIRA
-* **Others**: HTML5, SVG, CSS3, Bootstrap, jQuery
+* **IDE**: RubyMine
+* **CMS**: Shopify
+* **Web Server**: Nginx
+* **App Server**: puma, passenger, unicorn
+* **Others**: Accessibility, Deployment with Mina
 
-##### Major Projects
+##### Open Source Contributions
+* **simple_notifications**: A **RUBY GEM** for adding notifications for any model in a rails application. 
+                             It takes out the functionality of notifications in the common space.
+* **canvas_plate**: **JQuery** plugin for adding drawing tools(Arrow, Rectangle, Circle, Scribble etc.) functionality.
+* **ScrollPaginator**: **JQuery** plugin for infinite scrolling on the page.
 
-###### ThirdPillar-Grade - A leasing and lending product for banking applications
-
------------------------------
-  *Intelligent decision making and management system for banking applications. 
-  The goal of the product is to provide customer interface with minimal user input 
-  values to provide easy accessible decision making of leasing and lending of product.*
+##### Projects
+* ###### Via(Watermark Insights)
+------------------
+    Application for Assessment & Accreditation Planning for Educational Institutions 
+    in USA. Establish a central home for assessment, accreditation, program review, 
+    and strategic planning processes. With transparency and clear guidance for all 
+    stakeholders, you can create a solid foundation for meaningful assessment across 
+    your institution. Flexible data collection, including integrations with Watermark 
+    and other systems, makes it easy to capture many types of evidence of student outcomes 
+    achievement.
     
-  * **Technologies used** : Ruby, ROR, jQuery, xml
-  * **Responsibility**  - Backend development and API integration.
-
-###### DrawingView 
-
------------------------------
-  *DrawingView Software is designed so that Architects and Contractors can focus on 
-  their work, rather than on managing papers, drawings, and reports. Simply upload 
-  your project files on the app, and it finds sheet names, creates Hyperlinks, 
-  manages sheet versions, and does tons of other things so that you can get what 
-  you want in your iphone or ipad device.*
+    * Ruby, ROR, Sidekiq, ReactJS, AmgularJS, Material UI
+    * Accessibility
+    * Rspec, Enzyme, Chai, Jasmine
     
-  * **Technologies used** : Ruby, ROR, jQuery, Jscript, ,active_admin, photofy.
-  * **Url**  - [https://drawingview.com/about-us/](https://drawingview.com/about-us/)
-  * **Responsibility**  - Backend Development and Frontend development in JQuery.
+* ###### CrossCode(R Systems International Limited)
+------------------
+    Intelligent decision making and management system for banking applications. 
+    The goal of the product is to provide customer interface with minimal user 
+    input values to provide easy accessible decision making of leasing and lending 
+    of product.
+
+    * Ruby 2.6.3 
+    * Java, Mysql 
+
+* ###### ThirdPillar-Grade(Trantor Software Private Limited)
+------------------
+    A leasing and lending product for banking applications. Intelligent decision making 
+    and management system for banking applications. The goal of the product is to provide 
+    customer interface with minimal user input values to provide easy accessible decision 
+    making of leasing and lending of product.
+    
+    * Ruby, ROR, jQuery 
+    * Postgresql, xml
+
+* ###### DrawingView(Headerlabs Infotech Private Limited)
+------------------
+    DrawingView Software is designed so that Architects and Contractors can focus on 
+    their work, rather than on managing papers, drawings, and reports. Simply upload 
+    your project files on the app, and it finds sheet names, creates Hyperlinks, 
+    manages sheet versions, and does tons of other things so that you can get what 
+    you want in your iphone or ipad device.*
+    
+    * Ruby, ROR, jQuery ,active_admin, photofy.
   
-###### Medville
-
------------------------------
-  *Medville is an solution where a patient can book appointment for a doctor to get service. 
-  Its a complete API project for iphone application.*
+* ###### Medville(Headerlabs Infotech Private Limited)
+------------------
+    Medville is an solution where a patient can book appointment for a doctor to get service. 
+    Its a complete API project for iphone application.
     
-  * **Technologies used** : Ruby, ROR, active_admin, paperclip, stripe, timekit, sidekiq.
-  * **Responsibility**  - Backend Development.
+    * Ruby, ROR, active_admin, paperclip, stripe, timekit, sidekiq.
   
-###### HeartRateSocial
-
------------------------------
-  *HeartRateSocial is a social networking application. Here user can define his/her 
-  eating habits and fitness activities. Then user can find his/her network based upon the 
-  preference settings which include 
-    1. Radius under which matches should be found.
-    2. Matches of a particular gender.
-    3. Age range of people to be found for matches.
-    4. Matches having same type of interests.*
+* ###### HeartRateSocial(Headerlabs Infotech Private Limited)
+------------------
+    HeartRateSocial is a social networking application. Here user can define his/her 
+    eating habits and fitness activities. Then user can find his/her network based upon the 
+    preference settings which include 
+      1. Radius under which matches should be found.
+      2. Matches of a particular gender.
+      3. Age range of people to be found for matches.
+      4. Matches having same type of interests.*
     
-  * **Technologies used** : Ruby, ROR, active_admin, paperclip
-  * **Url**  - App is yet to be pushed to in Apple app Store
-  * **Responsibility**  - Backend Development.  
+    * Ruby, ROR, active_admin, paperclip
 
-###### Docademic
-
------------------------------
-  *It is basically for both doctors and, patients where a doctor
-   can read journals about of their speciality and contact other doctor for
-   help.Patient can store all their medical history and lot more.*
+* ###### Docademic(Headerlabs Infotech Private Limited)
+------------------
+    It is basically for both doctors and, patients where a doctor
+    can read journals about of their speciality and contact other doctor for
+    help.Patient can store all their medical history and lot more.
     
-  * **Technologies used** : Ruby, Rails, Jquery, RSS::Parser, Solr, Memcache.
-  * **Responsibility**  - Backend Development.
+    * Ruby, ROR, Jquery, RSS::Parser, Solr, Memcache.
 
-###### Edswell
-
------------------------------
-  *Edswell is designed to help counselors and college-bound
-   students with college application essay writing process.The site offers an
-   incredibly intuitive system that helps counselors and students manage the
-   variety and diversity of college essays along with the progression from draft
-   to final essay.*
+* ###### Edswell(Headerlabs Infotech Private Limited)
+------------------
+    Edswell is designed to help counselors and college-bound
+    students with college application essay writing process.The site offers an
+    incredibly intuitive system that helps counselors and students manage the
+    variety and diversity of college essays along with the progression from draft
+    to final essay.
     
-  * **Technologies used** : Ruby,Rails,jquery, JavaScript, ckeditor, social share 
-                            plugin,stripe, dropbox, facebook api,active_admin, 
-                            photofy.
-  * **Responsibility**  -   Test Automation
+    * Ruby, ROR, jquery, JavaScript, ckeditor, 
+    * social share plugin,stripe, dropbox, facebook api,active_admin, photofy.
 
-###### iRetail
+* ###### iRetail(Polaris Financial Technology Limited)
+------------------
+    iRetail is a robust and comprehensive application suite that embodies the 
+    mandatory functionality of a typical business while providing ample scope for 
+    configuration and customization to each retailer&apos;s business needs. The 
+    features are drawn from the best retail practices from around the world and 
+    are set atop a state-of-the-art technology development framework that understands 
+    the art of merging business and technology together to achieve maximum results.
 
------------------------------
-  * iRetail is a robust and comprehensive application suite that embodies the 
-  mandatory functionality of a typical business while providing ample scope for 
-  configuration and customization to each retailer&apos;s business needs. The 
-  features are drawn from the best retail practices from around the world and 
-  are set atop a state-of-the-art technology development framework that understands 
-  the art of merging business and technology together to achieve maximum results.*
-
-  * **Technologies used** : ROR, Jquery
-  * **Responsibility**  - Testing and Backend development
+    * Ruby, ROR, Jquery
