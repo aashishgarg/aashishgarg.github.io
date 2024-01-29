@@ -63,14 +63,7 @@ I am Ashish Kumar, a seasoned professional with over 9 years of experience in th
 
 ---
 
-#### Education
-
-- **MCA** | Chaudhary Devi Lal University, Sirsa, HR | 2006 - 2009
-- **B.Sc** | Kurukshetra University, Kurukshetra, HR | 2003 - 2006
-
----
-
-#### About
+#### Details
 
 - **Name**: Ashish Kumar
 - **Phone**: +91 9555604380
