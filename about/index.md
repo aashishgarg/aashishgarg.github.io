@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Associate Tech Lead
+title: Technical Lead
 excerpt: "8+ years of experience"
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
@@ -14,7 +14,7 @@ I am Ashish Kumar, a seasoned professional with over 9 years of experience in th
 
 #### Watermark Insights | Mohali
 
-###### Associate Technical Lead
+###### Technical Lead
 - Lead a team of 6 developers, handling technical queries and reviewing Pull Requests.
 - Gathered business requirements from the PO and BA, planned tasks for Program Increment.
 - Estimated sprint work, conducted technical analysis for product improvements.
