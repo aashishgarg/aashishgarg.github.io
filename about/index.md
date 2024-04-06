@@ -23,9 +23,9 @@ I am Ashish Kumar, a seasoned professional with over 9 years of experience in th
 
 ---
 
-### R Systems | Noida
+#### R Systems | Noida
 
-#### Senior Software Engineer
+##### Senior Software Engineer
 - Developed and managed small to medium-sized applications in Ruby on Rails.
 - Oversaw the entire software development lifecycle for smaller projects independently.
 - Supervised a team of two employees on medium-sized projects.
