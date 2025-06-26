@@ -98,4 +98,70 @@ bundle install
 
 ---
 
+## Docker Commands (Mac Silicon)
+
+This project includes Docker support for consistent development environments on Mac Silicon (ARM64) machines.
+
+### Start the Development Server
+
+```bash
+docker-compose up
+```
+
+### Start in Background
+
+```bash
+docker-compose up -d
+```
+
+### Stop the Server
+
+```bash
+docker-compose down
+```
+
+### Rebuild the Container
+
+```bash
+docker-compose build
+```
+
+### Build the Site for Production
+
+```bash
+docker-compose --profile build up jekyll-build
+```
+
+### Access the Site
+
+Once running, access your site at: http://localhost:4000
+
+### View Logs
+
+```bash
+docker-compose logs -f
+```
+
+### Run Commands Inside Container
+
+```bash
+docker-compose exec jekyll bundle _2.1.4_ exec jekyll build
+```
+
+### Alternative: Update Dependencies (Optional)
+
+If you want to update to newer Ruby and gem versions, you can:
+
+1. Update your Gemfile.lock locally:
+```bash
+bundle update
+```
+
+2. Then rebuild the Docker container:
+```bash
+docker-compose build --no-cache
+```
+
+---
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

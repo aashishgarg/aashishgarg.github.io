@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/app
+      - /app/vendor/bundle
+      - /app/node_modules
+    environment:
+      - JEKYLL_ENV=development
+      - LANG=C.UTF-8
+    command: bundle _2.1.4_ exec jekyll serve --host 0.0.0.0 --port 4000 --livereload --force_polling
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+  # Optional: Add a service for building the site
+  jekyll-build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/vendor/bundle
+    environment:
+      - JEKYLL_ENV=production
+      - LANG=C.UTF-8
+    command: bundle _2.1.4_ exec jekyll build
+    profiles:
+      - build 
