@@ -1,20 +1,22 @@
 ---
 layout: post
 share: true
-title: Jan 29, 2024
+title: "My Daily Hacks to Make Development Life Easier"
 modified: 2024-01-29T22:17:25-04:00
-excerpt: "Debugging dedicated day"
+excerpt: "Debugging dedicated day - Productivity tools and shortcuts for developers"
 categories: daily_blog
+tags: [productivity, development, tools, shortcuts]
 image:
   feature: 
 comments: true
 
 ---
-# My Daily Hacks to Make Development Life Easier
 
 In the world of software development, efficiency is key. As a developer, I'm constantly seeking ways to streamline my workflow and make my development life easier. Over time, I've developed several hacks and shortcuts that have become indispensable tools in my daily routine. Here's a glimpse into my arsenal of productivity-boosting tricks:
 
-* Make terminal aliases for frequently used commands.
+## Terminal Aliases
+
+Make terminal aliases for frequently used commands:
 
 ```bash
 alias ws="cd /home/agarg/projects/project1"
@@ -22,24 +24,29 @@ alias wss="docker exec -it container-name bash"
 alias rc="docker exec -it container-name bundle exec rails c"
 ```
 
-* Make easy to use executable scripts to handle docker-compose commands to start different services.
+## Docker Scripts
+
+Create easy-to-use executable scripts to handle docker-compose commands for different services:
 
 ```bash
 #!/bin/bash
 
 path="/home/projects/project1"
+
 # Check if an argument is provided
 if [ -z "$1" ]; then
     echo "Please provide an argument."
     exit 1
 fi
+
 # Start docker containers for sll-la
 gnome-terminal --tab -- bash -c "cd '$path' && docker-compose -f docker-compose.dev.yml up $1"
 ```
 
-* Echo Git branches of all my project repositories on terminal start.
+## Git Branch Status Script
 
-```bash
+Echo Git branches of all project repositories on terminal start:
+
 ```bash
 #!/bin/bash
 
@@ -72,3 +79,13 @@ printf "%-10s | %s\n" "INSIGHTS" "$SLL_LA_INSIGHTS"
 printf "%-10s | %s\n" "SLL INFRA" "$SLL_INFRA"
 printf "%-10s | %s\n" "SLL BASE" "$SLL_BASE"
 ```
+
+## Additional Productivity Tips
+
+- **Use VS Code snippets** for frequently typed code blocks
+- **Set up keyboard shortcuts** for common development tasks
+- **Create project-specific scripts** for repetitive tasks
+- **Use tmux sessions** to manage multiple terminal windows
+- **Implement auto-completion** for your most used commands
+
+These tools have significantly improved my development workflow and reduced the time spent on repetitive tasks. The key is to identify patterns in your daily work and automate them!

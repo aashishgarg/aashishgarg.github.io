@@ -1,17 +1,36 @@
 ---
 layout: page
-title: Latest Posts
-excerpt: "Simple blogging"
+title: "Welcome to My Blog"
+excerpt: "Technical insights, Ruby on Rails tutorials, and development experiences from a Technical Lead with 9+ years of experience"
 search_omit: true
 ---
+
+Welcome to my blog! Here you'll find the latest posts covering Ruby on Rails development, technical insights, and my experiences as a Technical Lead.
+
+## Latest Posts
 
 <ul class="post-list">
   {% for post in site.posts limit:10 %}
   <li>
-    <article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time
-      datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt
-      %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{%
-      endif %}</a></article>
+    <article>
+      <a href="{{ site.url }}{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+        <span class="entry-date">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%B %d, %Y" }}
+          </time>
+        </span>
+        {% if post.excerpt %}
+          <span class="excerpt">
+            {{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}
+          </span>
+        {% endif %}
+      </a>
+    </article>
   </li>
   {% endfor %}
 </ul>
+
+<p class="view-all-posts">
+  <a href="{{ site.url }}/blog/">View all posts →</a>
+</p>

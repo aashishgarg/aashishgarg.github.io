@@ -74,7 +74,7 @@ a[:a]
 By default, when trying to access a value not defined in a hash, we will receive nil. We can actually change this at initialization.
 
 
-* The ‘presence’ method: [@object.presence]
+* The 'presence' method: [@object.presence]
 
 ```ruby
 hash = {a: 1, b: 2}
@@ -162,7 +162,6 @@ app/models/post.rb:
   * [3] [OPTIMIZE] This is too slow. Better to use pluck
 ```
 
-
 * rake restart
 
 It restarts the rails server. It just touches the [tmp/restart.txt] file.
@@ -170,10 +169,6 @@ It restarts the rails server. It just touches the [tmp/restart.txt] file.
 ```ruby
  rake restart 
 ```
-
-
-
-
 
 Thanks for reading!!!
 

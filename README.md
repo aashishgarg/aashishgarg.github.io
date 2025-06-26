@@ -165,3 +165,34 @@ docker-compose build --no-cache
 ---
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+---
+
+## Recent Fixes and Improvements
+
+This project has been updated with the following fixes and improvements:
+
+### ✅ **Fixed Issues:**
+- **Typo Correction**: Fixed filename `debuggibg-tools.md` → `debugging-tools.md`
+- **Content Improvements**: Enhanced daily blog post with better structure and formatting
+- **Configuration Updates**: 
+  - Updated site description to reflect current experience
+  - Enabled jekyll-feed plugin for RSS feeds
+  - Improved homepage with better title and layout
+- **Code Cleanup**: Removed TODO/FIXME comments from blog posts
+- **Docker Support**: Added complete Docker setup for Mac Silicon machines
+- **File Organization**: Added comprehensive .gitignore file
+
+### 🚀 **New Features:**
+- **Docker Development Environment**: Complete containerized setup for consistent development
+- **Enhanced About Page**: Added Certifications and Recognitions section
+- **Improved Homepage**: Better structure and navigation
+- **Better Documentation**: Comprehensive README with all necessary commands
+
+### 🔧 **Technical Improvements:**
+- **Ruby Version Compatibility**: Fixed Docker setup for Ruby 2.7 compatibility
+- **Bundler Version Management**: Proper bundler version handling in Docker
+- **Build Optimization**: Added .dockerignore for faster builds
+- **Development Workflow**: Streamlined commands for local and Docker development
+
+---

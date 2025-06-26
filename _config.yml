@@ -1,7 +1,7 @@
 # Site wide configuration
 title: Ashish Garg
 locale: en_US
-description: Associate Tech Lead
+description: "Technical Lead with 9+ years of experience in full-stack development specializing in Ruby on Rails"
 logo: site-logo.svg
 search: true
 comments: true
@@ -20,7 +20,7 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-gist
-#  - jekyll-feed
+  - jekyll-feed
 
 kramdown:
   input: GFM

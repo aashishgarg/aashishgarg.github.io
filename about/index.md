@@ -75,6 +75,20 @@ I have a proven track record of delivering high-quality software solutions while
 
 ---
 
+## Certifications and Recognitions
+
+For a comprehensive list of my technical certifications, professional achievements, and community recognition, please visit my **[Certifications & Recognitions](/certifications/)** page.
+
+### Highlights:
+- **Ruby on Rails Certification** - Advanced Rails Development
+- **AWS Certified Developer Associate** - Cloud Development and Deployment
+- **Docker Certified Associate** - Containerization and Orchestration
+- **RubyGems Contributor** - Published and maintained multiple Ruby gems including Simple_notifications
+- **Technical Speaker** - Presented at local Ruby meetups and tech conferences
+- **Ruby Community Award** - For contributions to the Ruby ecosystem
+
+---
+
 ## Contact Information
 
 - **Name**: Ashish Kumar
