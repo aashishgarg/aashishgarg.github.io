@@ -2,14 +2,14 @@
 layout: post
 share: true
 title: "Rails Skeleton App with Docker: A Clean Setup for Beginners (No Local Install Needed)"
-modified: 2024-01-29T23:00:00-04:00
+modified: 2025-06-23T23:00:00-04:00
 categories: rails
 excerpt: "Learn how to create a Rails 8 project with PostgreSQL using Docker - no local Ruby, Rails, or database installation required. Perfect for beginners and teams."
 tags: [rails, docker, postgresql, beginners, development-environment, containerization]
 image:
   feature: 
 comments: true
-date: 2024-01-29T23:00:00-04:00
+date: 2025-06-23T23:00:00-04:00
 ---
 
 As someone who has led multiple Rails projects and worked with diverse teams, one challenge I often see new developers face is setting up their development environment correctly. Different OS versions, Ruby versions, Postgres configurations — all of this can become overwhelming quickly.
