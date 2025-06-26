@@ -25,4 +25,77 @@ So Simple takes advantage of Sass and data files to make customizing easier and 
 
 To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
 
+## Useful Jekyll Commands
+
+Below are some useful commands to help you work with this Jekyll project:
+
+### Serve the Site Locally
+
+```
+bundle exec jekyll serve
+```
+Or, if you don't use Bundler:
+```
+jekyll serve
+```
+- Access your site at: http://localhost:4000
+
+### Build the Site
+
+```
+bundle exec jekyll build
+```
+Or:
+```
+jekyll build
+```
+
+### Clean the Site
+
+```
+bundle exec jekyll clean
+```
+Or:
+```
+jekyll clean
+```
+
+### Serve Drafts and Future Posts
+
+```
+bundle exec jekyll serve --drafts --future
+```
+
+### Incremental Build (Faster)
+
+```
+bundle exec jekyll serve --incremental
+```
+
+### Use a Custom Configuration File
+
+```
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
+```
+
+### Build for Production
+
+```
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
+### Check for Site Problems
+
+```
+bundle exec jekyll doctor
+```
+
+### Install Dependencies
+
+```
+bundle install
+```
+
+---
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
